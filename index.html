@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>n-back game</title>
+   <meta content='the n-back game created by ddelphi' name='description'>
+	<link rel="stylesheet" href="js_game.nback.css" />
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="js_game.nback.js"></script>
+</head>
+
+<body>
+	<div id="nback-game">
+		<div id="pageGame" class="pageStyle">
+			<div id="nback">
+				<div class="player"></div>
+				<div class="sprite-flag"></div>
+				<div class="sprite-button"></div>
+				<div class="status"></div>
+				
+			</div>
+		</div>
+		<div id="pageStart" class="pageStyle">
+			<div class="splash"></div>
+			<div class="startButton lbutton">Start</div>
+			<div class="settingButton lbutton">Setting</div>
+		</div>
+		<div id="pageSetting" class="pageStyle">
+			<form action="" class="inner">
+				<div class="item">
+					<label for="text-nback">nback</label>
+					<input type="text" class="nback input-text" id="text-nback">
+				</div>
+				<div class="item">
+					<label for="text-length">length</label>
+					<input type="text" class="length input-text" id="text-length">
+				</div>
+				<div class="item">
+					<label for="text-rate">rate</label>
+					<input type="text" class="rate input-text" id="text-rate">
+				</div>
+				<input type="button" class="submit button" value="okay">
+				<input type="button" class="cancel button" value="cancel">
+
+			</form>
+		</div>
+		<div id="pageEnd" class="pageStyle">
+			<div class="wrapper">
+				<div class="text">RESULT:</div>
+				<div class="static"></div>
+				<div class="judgment"></div>
+				<div class="cancel lbutton">cancel</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
+

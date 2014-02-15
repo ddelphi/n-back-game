@@ -1,0 +1,167 @@
+
+
+
+
+
+
+body {
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+a {
+	outline: none;
+}
+
+div {
+	position: absolute;
+}
+
+#nback-game {
+	margin: 20px 80px;
+	width: 600px;
+	height: 400px;
+}
+
+
+.pageStyle {
+	display: none;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #bbb;
+	background-color: #f2f2f2;
+}
+
+.lbutton {
+	cursor: pointer;
+}
+.lbutton:hover {
+	background: #FFF;
+	color: #888;
+}
+
+
+
+
+/* pageGame */
+#pageGame {
+}
+
+#nback {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* pageStart */
+#pageStart {
+}
+
+#pageStart .splash {
+	left: 100px;
+	top: 60px;
+	width: 270px;
+	height: 165px;
+	background-image: url(splash.png);
+}
+
+#pageStart .startButton {
+	left: 100px;
+	bottom: 30px;
+	padding: 8px 30px;
+	background-color: #DDDDDD;
+	border: 1px solid #B7B7B7;
+	color: #464646;
+	font-size: 14px;
+	font-weight: bold;
+}
+#pageStart .settingButton {
+	left: 270px;
+	bottom: 30px;
+	padding: 8px 30px;
+	background-color: #DDDDDD;
+	border: 1px solid #B7B7B7;
+	color: #464646;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+/* pageSetting */
+#pageSetting {
+}
+
+#pageSetting .inner {
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	width: 200px;
+}
+#pageSetting .item {
+	position: relative;
+	overflow: hidden;
+	margin: 10px auto;
+}
+
+#pageSetting label {
+	float: left;
+	width: 30%;
+}
+#pageSetting .input-text {
+	float: right;
+	width: 60%;
+}
+#pageSetting .button {
+	margin: 20px 10px;
+}
+
+
+
+/* pageEnd */
+#pageEnd {
+}
+
+#pageEnd .wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#pageEnd .text {
+	left: 100px;
+	top: 60px;
+}
+
+#pageEnd .static {
+	left: 100px;
+	top: 90px;
+}
+
+#pageEnd .judgment {
+	left: 100px;
+	top: 105px;
+}
+
+#pageEnd .cancel {
+	left: 100px;
+	bottom: 30px;
+	padding: 8px 30px;
+	background-color: #DDDDDD;
+	border: 1px solid #B7B7B7;
+	color: #464646;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+/* helpers */
+html {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
