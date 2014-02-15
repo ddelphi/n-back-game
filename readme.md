@@ -3,6 +3,8 @@
 ## Overview
 This is simple N-Back game coded in javascript. Using DHTML for graphic display.
 
+You can preview it with **[this link](http://ddelphi.github.io/n-back-game/)**.
+
 ## Structure of codes
 The codes are including these objects:
 
