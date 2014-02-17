@@ -725,10 +725,14 @@ var DHTMLImage = {
 		var imgOnloadHandler = function() {
 			that.imageLoadCount -= 1;
 			if (that.imageLoadCount === 0) {
-				SYS_eventSystem.trigger("image/onload", {
-					"status": "done",
-					"done": true
-				});
+				setTimeout(function() {
+					if (that.imageLoadCount === 0) {
+						SYS_eventSystem.trigger("image/onload", {
+							"status": "done",
+							"done": true
+						});
+					}
+				}, 800);
 			}
 		};
 
